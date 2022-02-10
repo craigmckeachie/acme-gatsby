@@ -1,10 +1,12 @@
 import React from "react"
 import Footer from "./footer"
 import Header from "./header"
+import "../styles/global.css"
+import * as styles from "./layout.module.css"
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className={styles.container}>
       <Header />
       {children}
       <Footer />
