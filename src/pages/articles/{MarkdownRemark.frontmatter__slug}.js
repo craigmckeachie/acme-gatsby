@@ -9,7 +9,11 @@ export default function Article({ data }) {
   return (
     <Layout>
       <PageTitle>{article.frontmatter.title}</PageTitle>
-      <div dangerouslySetInnerHTML={{ __html: article.html }} />
+      <div
+        dangerouslySetInnerHTML={{
+          __html: article.html,
+        }}
+      />
     </Layout>
   )
 }
