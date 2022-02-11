@@ -10,11 +10,8 @@ export default function Home({ data }) {
     <Layout>
       <PageTitle>Home</PageTitle>
       <img src="https://source.unsplash.com/600x300/?house" alt="house" />
-      <blockquote className="py-6 text-xl text-gray-800  bg-gray-300 text-center my-6">
-        "We here at Acme Inc. understand that it is better to leverage
-        efficiently than to benchmark extensibly."
-      </blockquote>
-      <p>
+
+      <p className="mt-10">
         What does the commonly-used commonly-used commonly-accepted industry
         jargon "holistic" really mean? What does the term "re-sizing" really
         mean? Imagine a combination of WAP and Apache. The ability to integrate

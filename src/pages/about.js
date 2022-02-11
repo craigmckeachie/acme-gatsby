@@ -6,7 +6,7 @@ export default function About() {
   return (
     <Layout>
       <PageTitle>About</PageTitle>
-      <p>
+      <p className="mr-10">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quam
         mollitia ut, odit suscipit velit molestias, ratione vel minus iure esse!
         Nam autem vitae distinctio minima facere. Consectetur, error molestiae.
