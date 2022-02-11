@@ -2,6 +2,7 @@ import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
 import { PageTitle } from "../components/page-title"
+import homePagePhoto from "../images/home-page-photo.jpeg"
 
 export default function Home({ data }) {
   console.log(data)
@@ -9,7 +10,12 @@ export default function Home({ data }) {
   return (
     <Layout>
       <PageTitle>Home</PageTitle>
-      <img src="https://source.unsplash.com/600x300/?house" alt="house" />
+      <img
+        className="rounded-md shadow-md"
+        style={{ width: "600px", height: "300px" }}
+        src={homePagePhoto}
+        alt="corporate,office,building"
+      />
 
       <p className="mt-10">
         What does the commonly-used commonly-used commonly-accepted industry
